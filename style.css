@@ -1812,7 +1812,7 @@ video {
 		margin: 0 auto;
 		opacity: 0.95;
 		padding: 1.5em;
-		width: 457px;
+		width: 90%;
 	}
 
 	/* Front Page Testimonials */
@@ -2055,10 +2055,50 @@ video {
 	border: 1px solid #ccc;
 }
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .fts-jal-fb-header {
 	display: none !important;
 }
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.split {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+.panel {
+	float: left;
+	clear: none;
+  width: 33%;
+  margin-right: 10px;
+}
+.firstpanel {
+  width: 32%;
+}
+.last-panel {
+  margin-right: 0;
+}
+
+.panel h2 {
+	padding: 17px 20px;
+  background-color: #7579B2;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.group {
+	border-bottom: 1px solid #7579B2;
+	padding: 0 20px 20px 20px;
+	text-align: left;
+}
+
+.entry-header h1 {
+	text-transform: capitalize;
+}
+
