@@ -37,6 +37,7 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Menu', 'sela' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<a class="quick-exit" href="http://www.google.com">Quick Exit</a>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
